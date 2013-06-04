@@ -2,6 +2,7 @@ ViMeASpaTeA
 ===========
 
 Demo : http://maulik-kamdar.com/code/meteorViz/
+
 Visualizing Meteorites across Spatial and Temporal Attributes using A WebGL 3D Globe Visualization
 
 ViMeA-SpaTeA is an attempt to facilitate users to visualize meteorite collisions across spatial and temporal attributes. The platform allows users to interactively explore the collisions on a three dimensional (3D) visualization of the earth over many years. The time periods have been divided into decades - '1930' contains the meteorite collisions from '1930-1939'. These visualizations can be filtered down on the basis of the time of impact, the type of the meteorite and whether its fall was observed or found. These meteorites are visualized spatially using user-defined preferences, either on a Political Map or a Natural Map Texture. The total meteorites adhering to the filtered criteria are shown, and the top 20 prominent meteors are shown in a separate dialog, sorted in accordance to its mass. You can Revolve the 3D Globe visualization using the Mouse and also Zoom into a specific point using the Mouse Wheel. The meteorite collisions are displayed as Cylindrical Projections from the surface of the 3D Globe, the dimensions of which are directly proportional to the observed mass, and the color depends on the type of the meteorite. To account the wide range of mass of these meteorites the mapping scale decided was (Height = (Square Root (Mass))*0.5), as a result extremely small meteorites (0-100) may not be observed at first glance.
